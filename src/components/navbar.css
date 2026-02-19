@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  background-color: #4B2E2B;
+  color: #FFF8F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.cart-count {
+  background-color: #7B4F3C;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}

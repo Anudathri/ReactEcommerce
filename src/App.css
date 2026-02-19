@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #F5E6D3;
+}
+/* Make App container full height */
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
